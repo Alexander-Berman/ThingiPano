@@ -1,0 +1,32 @@
+top level: list of user instances
+
+user['username'] (str) username shown in all other metadata instances
+user['full_name'] (str) name displayed on their page (not always same as username)
+user['id'] (int) integer id used on Thingiverse to identify user
+user['tip_url'] (str) url to give money to this user
+
+user['IAmA'] (str) description about what the user 'is' (i.e. Maker, Engineer)
+user['bio'] (str) short description of the user
+user['design_programs'] (str) design programs that user has listed
+user['design_level'] (str) design experience self-described by the user
+
+user['avatar_img'] (str) url to user avatar image
+user['avatar_background_img'] (str) url to background image behind user avatar image
+
+user['number_collections'] (int) number of collections this user has created
+user['number_makes'] (int) number of things this author has published 'makes'
+user['number_following'] (int) number of users that this user is following
+user['number_followers'] (int) number of users that are following this user
+user['number_designs'] (int) number of designs that this user has published
+user['number_likes'] (int) number of likes this user has received
+
+user['printers'] (list of str) each string is a printer name
+
+user['groups'] list of groups
+  group['name'] display name of group
+  group['url'] url to group
+  group['img_url'] url to image representing group
+  group['member_count'] number of users in group
+  
+
+

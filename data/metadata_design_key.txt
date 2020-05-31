@@ -1,0 +1,111 @@
+top level: key from thing_id -> metadata
+
+metadata['id'] (int) Thingiverse 'Thing' ID. Also the key to get this page
+
+metadata['title'] (str) Title of Thing
+
+metadata['banner_featured'] (bool) Featured Page
+
+metadata['banner_education'] (bool) Approved as an Education Page 
+    metadata['education_subjects'] (str) list of subjects (science, math, etc.)
+    metadata['education_grades'] (str) list of grade levels
+
+metadata['banner_challenge_winner'] (bool) Won a Challenge
+    metadata['won_challenge'] (str) What Challenge it Won
+
+metadata['banner_verified'] (bool) Page verified by Thingiverse
+
+metadata['customizer'] (bool) Page is Customizer
+
+metadata['notice_violation'] (bool) Page is violating Thingiverse ToS
+
+metadata['notice_moderation'] (bool) Page removed by moderator
+
+metadata['notice_wip'] (bool) Page is a Work in Progress
+
+metadata['404'] (bool) for some reason page was not found by the script
+
+metadata['author'] (str) Author name
+
+metadata['author_url'] (str) URL to author page
+
+metadata['author_url_img'] (str) URL to image for author
+
+metadata['published_datetime'] (str) Time when Thing was published
+
+metadata['images'] (list) List of URL's of images
+    #Note: change ending for different sized images
+    # *_preview_tinycard.jpg small
+    # *_preview_featured.jpg medium
+    # *__display_large.jpg large
+
+metadata['collection_number'] (int) Number of Collections Thing belongs to
+
+metadata['watches'] (int) Number of Users 'watching' Thing
+
+metadata['remixes_number'] (int) Number of times this Thing was directly remixed
+
+metadata['made_number'] (int) Number of 'Makes'
+
+metadata['views'] (int) Number of Page Views
+
+metadata['downloads'] (int) Number of Downloads
+
+metadata['category'] (str) Category Thing Belongs To (at most one)
+    #Note: Subcategories seperated by '/'
+
+metadata['comments_number'] (int) Number of Comments
+
+metadata['comments'] (list) List of Comments
+    comment['comment_id'] (int) Thingiverse Comment ID
+    comment['parent_comment'] (int) Comment ID of Parent, None if top level
+    comment['depth'] (int) Depth of comment starting at one
+    comment['author_url'] (str) URL to author of comment
+    comment['author_img'] (str) URL to image of author of comment
+    comment['author'] (str) Name of Author
+    comment['date'] (str) Date of Comment
+    comment['text'] (str) Text (HTML) contained in comment
+
+metadata['tags'] (list) Tuples of ( (str) tag, (str) tag url)
+
+metadata['remixed_from'] (list) List of Dictionaries with the following keys
+    remixed_from['thing_id'] (int) Thing ID
+    remixed_from['title'] (str) Title of Thing
+    remixed_from['author'] (str) Author of Thing
+    remixed_from['img'] (str) URL of Image
+
+metadata['license'] (str) Licensing for File
+
+metadata['liked_by'] (list) List of Dictionaries with the following keys
+    liked_by['user'] (str) User Name
+    liked_by['user_url'] (str) URL to user page
+    liked_by['user_img'] (str) URL to user image
+
+metadata['makes'] (list) List of Dictionaries with the following keys
+    makes['user'] (str) User Name
+    makes['url'] (str) URL to make
+    makes['img'] (str) URL to image of Make
+
+metadata['description'] (list) List of Headers and their contained html
+    description_section['header'] (str) Title of Section
+    description_seciton['text'] (str) HTML of Section
+
+metadata['print_settings'] (list) List of Print Settings
+    print_setting[<setting>] (str) Value in setting (settings vary per thing)
+
+metadata['files'] (list) List of Dictionaries with the following keys
+    file['download_link'] (str) URL to download individual file
+    file['file_name'] (str) Name of the File (including extension)
+    file['thing_id'] (int) Thing ID where the file belongs to
+    file['file_id'] (int) Thingiverse ID for file
+    file['img'] (str) URL to image of file
+    file['updated_timestamp'] (str) last time file was updated
+    file['downloads'] (int) number of downloads for file
+    file['size'] (str) Memory file takes up
+
+
+
+
+
+
+
