@@ -11,7 +11,7 @@ Keys outlining the contents of [User Metadata](https://github.com/Alexander-Berm
 ![ThingiPano](/README_images/Examples.png)
 
 ## Attribution
-To appear at the Sixth IEEE Conference on Multimedia Big Data (2020). Please cite the following if you utilize this dataset:
+To appear at the [Sixth IEEE Conference on Multimedia Big Data (2020)](http://bigmm2020.org/). Please cite the following if you utilize this dataset:
 > Berman, Alexander, &amp; Quek, Francis (2020). ThingiPano: A Large-Scale Dataset of 3D Printing Metadata, Images, and Panoramic Renderings for Exploring Design Reuse. New Delhi: The Sixth IEEE International Conference on Multimedia Big Data.
 
-![IEEEBigMM](/README_images/IEEEBigMM.png)
+[![IEEEBigMM](/README_images/IEEEBigMM.png)](http://bigmm2020.org/)
