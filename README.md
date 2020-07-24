@@ -16,7 +16,9 @@ The Metadata is available [here]((https://github.com/Alexander-Berman/ThingiPano
 ## Examples
 Below are some examples of design images and an associated 3-view panoramic depth-map representation of design 3D files. As discussed in the paper, this can be utilized for large scale analysis and tools to support reuse of 3D files for 3D Design and 3D Printing. 
 
-Keys outlining the contents of [User Metadata](https://github.com/Alexander-Berman/ThingiPano/blob/master/data/metadata_user_key.txt) and [Design Metadata](https://github.com/Alexander-Berman/ThingiPano/blob/master/data/metadata_design_key.txt) are available in the [data directory](https://github.com/Alexander-Berman/ThingiPano/tree/master/data), along with a [Jupyter Notebook demonstrating how to quickly load the needed Metadata](https://github.com/Alexander-Berman/ThingiPano/blob/master/data/example_notebook.ipynb).
+Keys outlining the contents of [User Metadata](https://github.com/Alexander-Berman/ThingiPano/blob/master/data/metadata_user_key.txt) and [Design Metadata](https://github.com/Alexander-Berman/ThingiPano/blob/master/data/metadata_design_key.txt) are available in the [data directory](https://github.com/Alexander-Berman/ThingiPano/tree/master/data), along with a [Jupyter Notebook demonstrating how to quickly load the needed Metadata](https://github.com/Alexander-Berman/ThingiPano/blob/master/data/example_notebook.ipynb). 
+
+For machine learning purposes, an example data generator for loading the panoramas into a Keras neural network is provided in [another example notebook](https://github.com/Alexander-Berman/ThingiPano/blob/master/Keras_Example.ipynb).
 
 ![ThingiPano](/README_images/Examples.png)
 
