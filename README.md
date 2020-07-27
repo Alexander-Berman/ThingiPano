@@ -1,7 +1,7 @@
 ![ThingiPano](/README_images/GEARS.png)
 ## ThingiPano: A Large-Scale Dataset of 3D Printing Metadata, Images, and Panoramic Renderings for Exploring Design Reuse
 
-Contains JSON-Formatted Publicly-Available Metadata from [Thingiverse](https://thingiverse.com) (up to 2018), for both Users (n=283,873) and Designs (n=1,017,687). For qualatative analysis and for machine-learning applications, images associated with designs and multi-view panoramic 3D depth-map renders of 3D files are available for each design. For validation purposes, these panoramic renders are also provided for Shapenet, along with Matlab source code for generating these renders.
+Contains JSON-Formatted Publicly-Available Metadata from [Thingiverse](https://thingiverse.com) (up to 2018), for both Users (n=283,873) and Designs (n=1,017,687). For qualatative analysis and for machine-learning applications, images associated with designs and multi-view panoramic 3D depth-map renders of 3D files are available for each design. For validation purposes, these panoramic renders are also provided for Shapenet, along with Matlab source code for generating these renders. Files are available for download at [archive.org](https://archive.org/details/ThingiPano)
 
 |Files|Compressed Size|Uncompressed Size|Number of Entries|
 |-----|---------------|-----------------|-----------------|
