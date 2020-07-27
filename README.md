@@ -5,11 +5,11 @@ Contains JSON-Formatted Publicly-Available Metadata from [Thingiverse](https://t
 
 |Files|Compressed Size|Uncompressed Size|Number of Entries|
 |-----|---------------|-----------------|-----------------|
-|Thingiverse Images|97.5 GB|100 GB|1,816,295 images|
-|Rendered Panoramas|27.6 GB|31 GB|1,052,017 3-view panoramas|
-|Design Metadata|717 MB|4 GB|1,017,687 Designs|
-|User Metadata|28.1 MB|209 MB|283,873 Users|
-|Shapenet Panoramas|1.34 GB|1.8GB|44,902 3-view panoramas|
+|[Thingiverse Images](https://archive.org/download/ThingiPano/Thingiverse_Images.zip)|97.5 GB|100 GB|1,816,295 images|
+|[Rendered Panoramas](https://archive.org/download/ThingiPano/ThingiPano_Panoramas.zip)|27.6 GB|31 GB|1,052,017 3-view panoramas|
+|[Design Metadata](https://archive.org/download/ThingiPano/Thingiverse_Design_Metadata.zip)|717 MB|4 GB|1,017,687 Designs|
+|[User Metadata](https://archive.org/download/ThingiPano/Thingiverse_User_Metadata.zip)|28.1 MB|209 MB|283,873 Users|
+|[Shapenet Panoramas](https://archive.org/download/ThingiPano/Shapenet.zip)|1.34 GB|1.8GB|44,902 3-view panoramas|
 
 ## Examples
 Below are some examples of design images and an associated 3-view panoramic depth-map representation of design 3D files. As discussed in the paper, this can be utilized for large scale analysis and tools to support reuse of 3D files for 3D Design and 3D Printing. 
