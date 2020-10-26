@@ -1,7 +1,7 @@
 ![ThingiPano](/README_images/GEARS.png)
 ## ThingiPano: A Large-Scale Dataset of 3D Printing Metadata, Images, and Panoramic Renderings for Exploring Design Reuse
 
-Contains JSON-Formatted Publicly-Available Metadata from [Thingiverse](https://thingiverse.com) (up to 2018), for both Users (n=283,873) and Designs (n=1,017,687). For qualitative analysis and for machine-learning applications, images associated with designs and multi-view panoramic 3D depth-map renders of 3D files are available for each design. For validation purposes, these panoramic renders are also provided for Shapenet, along with Matlab source code for generating these renders. Files are available for download at [archive.org](https://archive.org/details/ThingiPano)
+Contains JSON-Formatted Publicly-Available Metadata from [Thingiverse](https://thingiverse.com) (up to 2018), for both Users (n=283,873) and Designs (n=1,017,687). For qualitative analysis and for machine-learning applications, images associated with designs and multi-view panoramic 3D depth-map renders of 3D files are available for each design. For validation purposes, these panoramic renders are also provided for Shapenet, along with Matlab source code for generating these renders. Full paper is available [at IEEE Xplore](https://ieeexplore.ieee.org/document/9232499). Files are available for download at [archive.org](https://archive.org/details/ThingiPano)
 
 |Files|Compressed Size|Uncompressed Size|Number of Entries|
 |-----|---------------|-----------------|-----------------|
@@ -21,7 +21,7 @@ For machine learning purposes, an example data generator for loading the panoram
 ![ThingiPano](/README_images/Examples.png)
 
 ## Attribution
-Won the Best Student Paper award at the [Sixth IEEE Conference on Multimedia Big Data (2020)](http://bigmm2020.org/). Please cite the following if you utilize this dataset:
+Won the Best Student Paper award at the [Sixth IEEE Conference on Multimedia Big Data (2020)](http://bigmm2020.org/) ([paper](https://ieeexplore.ieee.org/document/9232499)). Please cite the following if you utilize this dataset:
 > Berman, Alexander, &amp; Quek, Francis (2020). ThingiPano: A Large-Scale Dataset of 3D Printing Metadata, Images, and Panoramic Renderings for Exploring Design Reuse. New Delhi: The Sixth IEEE International Conference on Multimedia Big Data.
 
 [![IEEEBigMM](/README_images/IEEEBigMM.png)](http://bigmm2020.org/)
